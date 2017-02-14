@@ -6,14 +6,18 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import {
   PeekABooComponent,
-  PeekABooParentComponent
+  PeekABooParentComponent,
+  SpyComponent,
+  SpyDirective
 } from './components';
 
 @NgModule({
   declarations: [
     AppComponent,
     PeekABooComponent,
-    PeekABooParentComponent
+    PeekABooParentComponent,
+    SpyComponent,
+    SpyDirective
   ],
   imports: [
     BrowserModule,
