@@ -4,10 +4,16 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import {
+  PeekABooComponent,
+  PeekABooParentComponent
+} from './components';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PeekABooComponent,
+    PeekABooParentComponent
   ],
   imports: [
     BrowserModule,
